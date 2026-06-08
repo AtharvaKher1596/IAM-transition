@@ -1,0 +1,126 @@
+# OS Files
+
+.DS_Store
+Thumbs.db
+
+# IDE - IntelliJ
+
+.idea/
+*.iml
+out/
+
+# IDE - VS Code
+
+.vscode/
+
+# Eclipse
+
+.project
+.classpath
+.settings/
+.metadata/
+
+# Java
+
+*.class
+
+# Maven
+
+target/
+
+# Gradle
+
+.gradle/
+build/
+
+# Logs
+
+*.log
+logs/
+
+# Spring Boot
+
+spring.log
+
+# Environment Variables
+
+.env
+.env.*
+!.env.example
+
+# Secrets / Certificates
+
+*.pem
+*.key
+*.p12
+*.jks
+*.keystore
+
+# Node.js (for future IAM frontend demos)
+
+node_modules/
+dist/
+coverage/
+
+# Temporary Files
+
+tmp/
+temp/
+*.tmp
+
+# Archive Files
+
+*.zip
+*.tar
+*.gz
+*.rar
+
+# Generated Documentation
+
+/site/
+
+# Test Reports
+
+surefire-reports/
+failsafe-reports/
+
+# Mac
+
+.AppleDouble
+.LSOverride
+
+# Linux
+
+*~
+
+# Windows
+
+Desktop.ini
+
+# Terraform (if used later)
+
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Docker
+
+docker-data/
+
+# Ignore local configuration files
+
+application-local.yml
+application-local.properties
+application-dev.yml
+application-dev.properties
+
+# Ignore secrets
+
+secrets/
+credentials/
+
+# Keep documentation assets
+
+!assets/
+!diagrams/
+!screenshots/
